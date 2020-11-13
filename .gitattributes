@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+print("Введите три числа:")
+a = int(input())
+b = int(input())
+c = int(input())
+if a+b+c == 180:
+    print("Да, могут.")
+else:
+    print("Нет, не могут.")
